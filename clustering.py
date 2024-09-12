@@ -49,7 +49,7 @@ outliers = find_outliers(kmeans, encoded_df)
 # Mark outliers in the DataFrame
 df['Is_Outlier'] = outliers
 
-# Step 6.1: Merging outliers with the nearest cluster (optional)
+# Step 6.1: Merging outliers with the nearest cluster 
 # If an outlier is identified, you can merge it with the nearest cluster.
 # You can also treat them as a separate group if needed.
 
