@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
  
 def remove_outliers_iqr(df, column_name):
     """
